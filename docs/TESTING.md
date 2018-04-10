@@ -28,7 +28,7 @@ It also may include integration testing which is the phase in software testing i
 It also maybe include regression testing, which is a type of software testing which verifies that software which was previously developed and tested still performs the same way after it was changed or interfaced with other software.
   - Screen Shots
      - We are utilizing a plugin to aide with the collection, and analysis of screenshots. On Chrome only currently, we capture screenshots, and compare them to a baseline(most current and valid) screenshots
-     - The tool will capture screenshots, and save the screenshots to the `../.tmp/actual/` directory. If the screenshot is valid, and can then be moved to the baseline directory where it should be committed, and saved in the git repository.
+     - The tool will capture screenshots, and save the screenshots to the `../.tmp/actual/` directory automatically. If it can't, and if the screenshot is valid, and can then be moved to the baseline directory where it should be committed, and saved in the git repository.
 
 ## Running and Debugging Tests
 Run just the api spec, for debugging with Chrome. For debugging use statements in the unit tests, and open Chrome DevTools
